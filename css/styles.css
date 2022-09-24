@@ -25,6 +25,25 @@ body{
     font-family: Roboto, sans-serif;  
 }
 
+h1{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+
+}
+h2{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .logo{
     color: var(--section-color-1);
     font-family: Raleway, sans-serif;
@@ -48,9 +67,11 @@ body{
     letter-spacing: 0.02em;
 }
 .menu:hover, .mail:hover, .phone:hover, .menu:focus, .mail:focus,
-.phone:focus{
+.phone:focus, .footer .mail:hover, .footer .mail:focus,  .footer .phone:hover,
+.footer .phone:focus{
     color: var(--accent-color);
 }
+
 
 .studio, .portfolio, .contact{
     color: var(--accent-color);
@@ -62,20 +83,15 @@ body{
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .section-1{
     background-color:var(--section-color-1);
 }
 
-h1{
-    color:#FFFFFF;
-    font-weight: 900;
-    font-size: 44px;
-    line-height:1.3;
-    text-align: center;
-    text-transform:uppercase;
-    letter-spacing: 0.06em;
+ .portfolio-h1{
+    color: #212121;
 }
 
 button{
@@ -108,20 +124,12 @@ li{
     text-transform: uppercase;
 }
 
+
 .benefit p{
     color:var(--second-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
-}
-
-h2{
-    color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -178,6 +186,7 @@ h2{
     font-style:normal;
 }
 
+
 .filter button{
     background-color:#F5F4FA;
     color: var(--primary-text-color);
@@ -196,7 +205,7 @@ h2{
 .works a{
     text-decoration: none;
 }
-.works h3{
+.works h2{
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 700;
